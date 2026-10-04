@@ -5,9 +5,15 @@
   "scripts": {
     "dev": "tsx src/server.ts",
     "chat": "tsx --env-file-if-exists=.env src/chat.ts",
+    "test": "tsx --test src/*.test.ts",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@agentos-software/browserbase": "^0.3.3",
+    "@agentos-software/common": "^0.2.22",
+    "@agentos-software/curl": "^0.3.3",
+    "@agentos-software/git": "^0.3.3",
+    "@agentos-software/jq": "^0.3.3",
     "@agentos-software/pi": "0.2.7",
     "@rivet-dev/agentos": "0.2.22"
   },
