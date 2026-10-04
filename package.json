@@ -1,0 +1,19 @@
+{
+  "name": "bindu",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "chat": "tsx --env-file-if-exists=.env src/chat.ts",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agentos-software/pi": "0.2.7",
+    "@rivet-dev/agentos": "0.2.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}
